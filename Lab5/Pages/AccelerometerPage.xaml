@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Lab5.Pages.AccelerometerPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="AccelerometerPage"
+    Shell.BackgroundColor="#0A1E2E"
+    Shell.TitleColor="#fff">
+    <StackLayout Padding="10" Spacing="10">
+        <Button
+            x:Name="ToggleButton"
+            Clicked="OnToggleAccelerometerButtonClicked"
+            Text="Start Accelerometer" />
+        <Label x:Name="AccelerometerLabel" />
+    </StackLayout>
+</ContentPage>

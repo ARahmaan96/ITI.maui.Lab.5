@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Lab5.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Lab5.Pages"
+    Title="Lab5">
+
+
+    <FlyoutItem Title="Camera Page" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent ContentTemplate="{DataTemplate local:CameraPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Location Page" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent ContentTemplate="{DataTemplate local:LocationPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Accelerometer Page" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent ContentTemplate="{DataTemplate local:AccelerometerPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="File Page" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent ContentTemplate="{DataTemplate local:FilePage}" />
+    </FlyoutItem>
+
+</Shell>
